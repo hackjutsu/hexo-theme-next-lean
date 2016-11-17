@@ -4,7 +4,7 @@ menu:
   categories: /categories
   archives: /archives
   tags: /tags
-  about: /about
+  # about: /about
   #commonweal: /404.html
 
 # Place your favicon.ico to /source directory.
@@ -46,7 +46,7 @@ scheme: Mist
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-sidebar: post
+sidebar: hide
 #sidebar: always
 #sidebar: hide
 
@@ -97,7 +97,7 @@ version: 0.4.5.1
 
 # Social links
 social:
-  Github: https://github.com/hackjustu
+  Github: https://github.com/hackjutsu
 
 # title, chinese available
 links_title: Links
