@@ -48,3 +48,46 @@
 .posts-expand .post-tags a {
   color: $grey-dark;
 }
+
+@font-face {
+    font-family: 'sourcesanspro';
+    src: url("/fonts/sourcesanspro/sourcesanspro.woff2") format("woff2"), url("/fonts/sourcesanspro/sourcesanspro.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+// 正文
+body {
+  font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+// 引用
+blockquote {
+  background: $white;
+  font-size 0.9em;
+  color: $grey-dim;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $gray-lighter;
+  border-left: 12px solid $grey-dark;
+  border-radius: 0.2em;
+  margin: 0px 0px 25px 0px
+  line-height: 150%;
+}
+
+// post标题 Desktop
+.posts-expand .post-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+// post标题 Mobile
+@media (max-width: 767px) {
+    .posts-expand .post-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+}
